@@ -9,6 +9,8 @@ Desafio para desenvolver um app onde existirá um timer com quantos dias, horas,
 
 ![Card com info](https://i.imgur.com/VCQSbtt.png)
 
+Confira a demo aqui: https://countdown-next.vercel.app
+
 
 
 ## Tecnologias
