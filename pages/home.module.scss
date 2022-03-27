@@ -1,0 +1,114 @@
+
+
+.main{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+
+    .mainContainer{
+
+        @media screen and (max-width: 1200px){
+            display: block;
+        }
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+        width: 100%;
+        
+        justify-content: center;
+        
+        // gap: 10rem;
+
+        text-align: center;
+        
+        p{
+            color: var(--text-color);
+        }
+
+        .timerDiv{
+            align-self: center;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+
+            h1{
+                color: var(--purple);
+            }
+        
+
+            .time{
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                gap: 5rem;
+
+                .numberDiv{
+                    display: flex;
+                    flex-direction: column;
+
+                    p{ 
+                        color: var(--light-grey);
+                        font-size: 0.8rem;
+                    }
+
+                    h1{
+                        color: var(--black);
+                        font-size: 5rem;
+                        font-weight: 300;
+                    }
+
+                    span{
+                        font-size: 5rem;
+                        font-weight: 300;
+
+                        position: absolute;
+                        margin-left: 7.7rem;
+
+                        color: var(--black);
+                    }
+
+                }
+            }
+
+            button{
+                align-self: center;
+
+                width: 9rem;
+
+                @media screen and (max-width: 630px ) {
+                    width: 20rem;
+                }
+
+                @media screen and (max-width: 768px) {
+                    width: 20rem;
+                }
+
+                border: none;
+                border-radius: 5px;
+
+                color: #fff;
+
+                padding: 10px 20px;
+                background: var(--purple);
+            }
+        }
+
+        .rocketDiv{
+           
+            @media screen and (max-width: 1200px){
+               display: none;
+            }
+
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+     }
+}
+
