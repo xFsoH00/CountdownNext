@@ -56,7 +56,7 @@ export default function Home() {
             <button>Inscreva-se</button>
           </div>
           <div className={styles.rocketDiv}>
-              <img src="/rocket.svg" alt="foguete" />
+              <img src="/outer-space-animate.svg" alt="foguete" />
           </div>
        </section>
      </main>
